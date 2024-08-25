@@ -1,3 +1,0 @@
-H:\delta\RobotCmdDemo\RobotCmdDemo\Debug\RobotCmdDemo.exe
-D:\delta\RobotCmdDemo\RobotCmdDemo\Debug\RobotCmdDemo.exe
-C:\Users\Yuki\Desktop\delta\delta\RobotCmdDemo\RobotCmdDemo\Debug\RobotCmdDemo.exe
