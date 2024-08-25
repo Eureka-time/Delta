@@ -1,0 +1,38 @@
+<!DOCTYPE xml>
+<Root>
+ <FileHead Version="1.1" RobotType=""/>
+ <DataDefine>
+  <VarDefine/>
+  <VarArrayDefine/>
+  <PointDefine/>
+  <PointArrayDefine/>
+  <CameraDefine/>
+  <CameraArrayDefine/>
+ </DataDefine>
+ <Program>
+  <Main Name="Main" Id="1">
+   <LineTo DataType="LineTo" Name="LineTo" Id="2" Tm="500" ToolIndex="0" CoorIndex="0" Spd="100">
+    <Point Name="A" Id="3" bCurrentPoint="0" RZ="0" Z="-50" X="0" Y="-150"/>
+   </LineTo>
+   <While Name="While" Id="4" Express="">
+    <Condition Name="Condition" Id="5">
+     <DataNode DataType="Const" Name="" Id="6" ConstValue="1"/>
+    </Condition>
+    <SPPMove Dec="120" DataType="SPPMove" Name="SPPMove" Id="7" Hgt="0" Move="300" Acc="120" Lg1="0" ToolIndex="0" CoorIndex="0" trjV0="0" Spd="100" Lg2="0">
+     <Point Name="A" Id="8" bCurrentPoint="0" RZ="0" Z="-50" X="0" Y="-150"/>
+     <Point Name="B" Id="9" bCurrentPoint="0" RZ="0" Z="-50" X="50" Y="-150"/>
+    </SPPMove>
+    <SPPMove Dec="120" DataType="SPPMove" Name="SPPMove" Id="10" Hgt="0" Move="300" Acc="120" Lg1="0" ToolIndex="0" CoorIndex="0" trjV0="0" Spd="100" Lg2="0">
+     <Point Name="B" Id="11" bCurrentPoint="0" RZ="0" Z="-50" X="50" Y="-150"/>
+     <Point Name="A" Id="12" bCurrentPoint="0" RZ="0" Z="-50" X="0" Y="-150"/>
+    </SPPMove>
+    <LineTo DataType="LineTo" Name="LineTo" Id="13" Tm="500" ToolIndex="0" CoorIndex="0" Spd="100">
+     <Point Name="C" Id="14" bCurrentPoint="0" RZ="0" Z="-50" X="0" Y="0"/>
+    </LineTo>
+    <WaitTime Name="WaitTime" Id="15" Value="100"/>
+   </While>
+  </Main>
+  <SubPrograms/>
+  <SubFunctions/>
+ </Program>
+</Root>

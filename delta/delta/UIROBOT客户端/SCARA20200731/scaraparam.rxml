@@ -1,0 +1,35 @@
+<!DOCTYPE xml>
+<Root>
+ <FileHead Version="1.1" RobotType="Scara400"/>
+ <DataDefine>
+  <Parameter Id="1" Name="lengthUIScaraArm1" Value="222"/>
+  <Parameter Id="2" Name="gearRatioUIScaraArm1" Value="31"/>
+  <Parameter Id="3" Name="maxSpeedUIScaraArm1" Value="50000"/>
+  <Parameter Id="4" Name="rangeUIScaraArm1" Value="130"/>
+  <Parameter Id="5" Name="maxAccelerationUIScaraArm1" Value="20000000"/>
+  <Parameter Id="6" Name="nodeIDUIScaraArm1" Value="11"/>
+  <Parameter Id="7" Name="massUIScaraArm1" Value="0.89"/>
+  <Parameter Id="8" Name="centralMassDistanceUIScaraArm1" Value="102"/>
+  <Parameter Id="9" Name="lengthUIScaraArm2" Value="178"/>
+  <Parameter Id="10" Name="gearRatioUIScaraArm2" Value="31"/>
+  <Parameter Id="11" Name="maxSpeedUIScaraArm2" Value="100000"/>
+  <Parameter Id="12" Name="rangeUIScaraArm2" Value="130"/>
+  <Parameter Id="13" Name="maxAccelerationUIScaraArm2" Value="20000000"/>
+  <Parameter Id="14" Name="nodeIDUIScaraArm2" Value="12"/>
+  <Parameter Id="15" Name="massUIScaraArm2" Value="5.2"/>
+  <Parameter Id="16" Name="centralMassDistanceUIScaraArm2" Value="10"/>
+  <Parameter Id="17" Name="lengthUIScaraArm3" Value="90"/>
+  <Parameter Id="18" Name="gearRatioUIScaraArm3" Value="-200"/>
+  <Parameter Id="19" Name="maxSpeedUIScaraArm3" Value="120000"/>
+  <Parameter Id="20" Name="rangeUIScaraArm3" Value="300"/>
+  <Parameter Id="21" Name="maxAccelerationUIScaraArm3" Value="20000000"/>
+  <Parameter Id="22" Name="nodeIDUIScaraArm3" Value="13"/>
+  <Parameter Id="23" Name="lengthUIScaraArm4" Value="0"/>
+  <Parameter Id="24" Name="gearRatioUIScaraArm4" Value="88.8889"/>
+  <Parameter Id="25" Name="thirdRatioUIScaraArm4" Value="0.044444"/>
+  <Parameter Id="26" Name="maxSpeedUIScaraArm4" Value="200000"/>
+  <Parameter Id="27" Name="rangeUIScaraArm4" Value="360"/>
+  <Parameter Id="28" Name="maxAccelerationUIScaraArm4" Value="20000000"/>
+  <Parameter Id="29" Name="nodeIDUIScaraArm4" Value="14"/>
+ </DataDefine>
+</Root>

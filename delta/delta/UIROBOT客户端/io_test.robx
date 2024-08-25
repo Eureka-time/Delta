@@ -1,0 +1,41 @@
+<!DOCTYPE xml>
+<Root>
+ <FileHead Version="1.1" RobotType="Delta"/>
+ <DataDefine>
+  <VarDefine/>
+  <VarArrayDefine/>
+  <PointDefine/>
+  <PointArrayDefine/>
+  <CameraDefine/>
+  <CameraArrayDefine/>
+ </DataDefine>
+ <Program>
+  <Main Name="Main" Id="1">
+   <While Name="While" Id="2" Express="">
+    <Condition Name="Condition" Id="3">
+     <DataNode ConstValue="1" DataType="Const" Name="" Id="4"/>
+    </Condition>
+    <LineTo DataType="LineTo" Spd="20" Name="LineTo" ToolIndex="0" CoorIndex="0" Tm="500" Id="5">
+     <Point RZ="0" bCurrentPoint="0" X="0" Y="0" Z="-190" Name="Point" Id="6"/>
+    </LineTo>
+    <OutPut Virtual="0" Value="1" Name="OutPut" Id="7" PortIndex="1"/>
+    <WaitTime Value="3000" Name="WaitTime" Id="8"/>
+    <LineTo DataType="LineTo" Spd="20" Name="LineTo" ToolIndex="0" CoorIndex="0" Tm="500" Id="9">
+     <Point RZ="0" bCurrentPoint="0" X="0" Y="0" Z="-10" Name="Point" Id="10"/>
+    </LineTo>
+    <OutPut Virtual="0" Value="1" Name="OutPut" Id="11" PortIndex="1"/>
+    <WaitTime Value="5000" Name="WaitTime" Id="12"/>
+    <LineTo DataType="LineTo" Spd="20" Name="LineTo" ToolIndex="0" CoorIndex="0" Tm="500" Id="13">
+     <Point RZ="0" bCurrentPoint="0" X="-100" Y="300" Z="-180" Name="Point" Id="14"/>
+    </LineTo>
+    <OutPut Virtual="0" Value="0" Name="OutPut" Id="15" PortIndex="1"/>
+    <WaitTime Value="5000" Name="WaitTime" Id="16"/>
+    <LineTo DataType="LineTo" Spd="30" Name="LineTo" ToolIndex="0" CoorIndex="0" Tm="500" Id="17">
+     <Point RZ="0" bCurrentPoint="0" X="0" Y="0" Z="-10" Name="Point" Id="18"/>
+    </LineTo>
+   </While>
+  </Main>
+  <SubPrograms/>
+  <SubFunctions/>
+ </Program>
+</Root>

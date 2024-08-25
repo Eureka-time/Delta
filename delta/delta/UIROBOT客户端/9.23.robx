@@ -1,0 +1,40 @@
+<!DOCTYPE xml>
+<Root>
+ <FileHead RobotType="" Version="1.1"/>
+ <DataDefine>
+  <VarDefine/>
+  <VarArrayDefine/>
+  <PointDefine/>
+  <PointArrayDefine/>
+  <CameraDefine/>
+  <CameraArrayDefine/>
+ </DataDefine>
+ <Program>
+  <Main Id="1" Name="Main">
+   <LineTo DataType="LineTo" Id="2" Tm="500" Name="LineTo" CoorIndex="0" Spd="100" ToolIndex="0">
+    <Point Y="-300" Z="-50" Id="3" X="0" Name="A" bCurrentPoint="0" RZ="0"/>
+   </LineTo>
+   <SPPMove DataType="SPPMove" Hgt="0" Id="4" Lg1="0" Name="SPPMove" Acc="120" Lg2="0" Move="500" trjV0="0" CoorIndex="0" Spd="100" Dec="120" ToolIndex="0">
+    <Point Y="-300" Z="-50" Id="5" X="0" Name="A" bCurrentPoint="0" RZ="0"/>
+    <Point Y="-20" Z="-50" Id="6" X="-100" Name="B" bCurrentPoint="0" RZ="0"/>
+   </SPPMove>
+   <SPPMove DataType="SPPMove" Hgt="0" Id="7" Lg1="0" Name="SPPMove" Acc="120" Lg2="0" Move="500" trjV0="0" CoorIndex="0" Spd="100" Dec="120" ToolIndex="0">
+    <Point Y="-20" Z="-50" Id="8" X="-100" Name="B" bCurrentPoint="0" RZ="0"/>
+    <Point Y="-20" Z="-50" Id="9" X="100" Name="C" bCurrentPoint="0" RZ="0"/>
+   </SPPMove>
+   <SPPMove DataType="SPPMove" Hgt="0" Id="10" Lg1="0" Name="SPPMove" Acc="120" Lg2="0" Move="500" trjV0="0" CoorIndex="0" Spd="100" Dec="120" ToolIndex="0">
+    <Point Y="-20" Z="-50" Id="11" X="100" Name="C" bCurrentPoint="0" RZ="0"/>
+    <Point Y="-200" Z="0" Id="12" X="100" Name="D" bCurrentPoint="0" RZ="0"/>
+   </SPPMove>
+   <SPPMove DataType="SPPMove" Hgt="0" Id="13" Lg1="0" Name="SPPMove" Acc="120" Lg2="0" Move="500" trjV0="0" CoorIndex="0" Spd="100" Dec="120" ToolIndex="0">
+    <Point Y="-200" Z="0" Id="14" X="100" Name="D" bCurrentPoint="0" RZ="0"/>
+    <Point Y="-200" Z="-50" Id="15" X="200" Name="E" bCurrentPoint="0" RZ="0"/>
+   </SPPMove>
+   <LineTo DataType="LineTo" Id="16" Tm="500" Name="LineTo" CoorIndex="0" Spd="100" ToolIndex="0">
+    <Point Y="-300" Z="-50" Id="17" X="0" Name="A" bCurrentPoint="0" RZ="0"/>
+   </LineTo>
+  </Main>
+  <SubPrograms/>
+  <SubFunctions/>
+ </Program>
+</Root>

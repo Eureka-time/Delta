@@ -1,0 +1,20 @@
+<!DOCTYPE xml>
+<Root>
+ <FileHead Version="1.1" RobotType="Delta700"/>
+ <DataDefine>
+  <Parameter Value="140" Name="UIDeltaBaseRadius" Id="1"/>
+  <Parameter Value="50" Name="UIDeltaPlatformRadius" Id="2"/>
+  <Parameter Value="300" Name="UIDeltaActiveArmLen" Id="3"/>
+  <Parameter Value="766" Name="UIDeltaPassiveArmLen" Id="4"/>
+  <Parameter Value="90" Name="UIDeltaArmRangeMax" Id="5"/>
+  <Parameter Value="-10" Name="UIDeltaArmRangeMin" Id="6"/>
+  <Parameter Value="21" Name="UIDeltaArmGearRatio" Id="7"/>
+  <Parameter Value="5" Name="UIDeltaRotateGearRatio" Id="8"/>
+  <Parameter Value="270" Name="UIDeltaRotateRange" Id="9"/>
+  <Parameter Value="3200" Name="UIDeltaPulsePerCircle" Id="10"/>
+  <Parameter Value="-647.5" Name="UIDeltaTopLimit" Id="11"/>
+  <Parameter Value="-947.5" Name="UIDeltaBottomLimit" Id="12"/>
+  <Parameter Value="350" Name="UIDeltaLevelRange" Id="13"/>
+  <Parameter Value="30" Name="UIDeltaPVTInv" Id="14"/>
+ </DataDefine>
+</Root>

@@ -1,0 +1,22 @@
+<!DOCTYPE xml>
+<Root>
+ <FileHead Version="1.1" RobotType="Delta"/>
+ <DataDefine>
+  <VarDefine/>
+  <VarArrayDefine/>
+  <PointDefine/>
+  <PointArrayDefine/>
+  <CameraDefine/>
+  <CameraArrayDefine/>
+ </DataDefine>
+ <Program>
+  <Main Name="Main" Id="1">
+   <LineTo Tm="500" CoorIndex="0" ToolIndex="0" DataType="LineTo" Spd="100" Name="LineTo" Id="2">
+    <Point bCurrentPoint="0" Y="0" RZ="0" Z="0" X="0" Name="A" Id="3"/>
+    <Point bCurrentPoint="0" Y="20" RZ="0" Z="0" X="20" Name="B" Id="4"/>
+   </LineTo>
+  </Main>
+  <SubPrograms/>
+  <SubFunctions/>
+ </Program>
+</Root>

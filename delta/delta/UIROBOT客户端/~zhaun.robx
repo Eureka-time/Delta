@@ -1,0 +1,49 @@
+<!DOCTYPE xml>
+<Root>
+ <FileHead Version="1.1" RobotType="Delta"/>
+ <DataDefine>
+  <VarDefine/>
+  <VarArrayDefine/>
+  <PointDefine/>
+  <PointArrayDefine/>
+  <CameraDefine/>
+  <CameraArrayDefine/>
+ </DataDefine>
+ <Program>
+  <Main Name="Main" Id="1">
+   <LineTo CoorIndex="0" Name="LineTo" DataType="LineTo" Id="2" Spd="55" Tm="500" ToolIndex="0">
+    <Point Name="A" bCurrentPoint="0" Id="3" X="0" Y="0" Z="-10" RZ="0"/>
+   </LineTo>
+   <SPPMove CoorIndex="0" Name="SPPMove" Acc="120" DataType="SPPMove" Lg2="0" Lg1="0" Id="4" Hgt="0" Move="500" trjV0="0" Dec="120" Spd="54" ToolIndex="0">
+    <Point Name="A" bCurrentPoint="0" Id="5" X="0" Y="0" Z="-10" RZ="0"/>
+    <Point Name="B" bCurrentPoint="0" Id="6" X="100" Y="-200" Z="-50" RZ="0"/>
+   </SPPMove>
+   <SPPMove CoorIndex="0" Name="SPPMove" Acc="120" DataType="SPPMove" Lg2="0" Lg1="0" Id="7" Hgt="0" Move="500" trjV0="0" Dec="120" Spd="64" ToolIndex="0">
+    <Point Name="B" bCurrentPoint="0" Id="8" X="100" Y="-200" Z="-50" RZ="0"/>
+    <Point Name="C" bCurrentPoint="0" Id="9" X="-100" Y="-200" Z="0" RZ="0"/>
+   </SPPMove>
+   <SPPMove CoorIndex="0" Name="CPPMove" Acc="120" DataType="CPPMove" Lg2="0" Lg1="0" Id="10" Hgt="0" Move="500" trjV0="0" Dec="120" Spd="52" ToolIndex="0">
+    <Point Name="Point" bCurrentPoint="0" Id="11" X="-100.07" Y="-199.95" Z="-0.04" RZ="0"/>
+    <Point Name="Point" bCurrentPoint="0" Id="12" X="106.61" Y="0" Z="0" RZ="0"/>
+    <Point Name="Point" bCurrentPoint="0" Id="13" X="200" Y="0" Z="0" RZ="0"/>
+   </SPPMove>
+   <SPPMove CoorIndex="0" Name="SPPMove" Acc="120" DataType="SPPMove" Lg2="0" Lg1="0" Id="14" Hgt="0" Move="500" trjV0="0" Dec="120" Spd="50" ToolIndex="0">
+    <Point Name="Point" bCurrentPoint="0" Id="15" X="200" Y="0" Z="0" RZ="0"/>
+    <Point Name="Point" bCurrentPoint="0" Id="16" X="-300" Y="-100" Z="-50" RZ="0"/>
+   </SPPMove>
+   <SPPMove CoorIndex="0" Name="SPPMove" Acc="120" DataType="SPPMove" Lg2="0" Lg1="0" Id="17" Hgt="0" Move="500" trjV0="0" Dec="120" Spd="50" ToolIndex="0">
+    <Point Name="Point" bCurrentPoint="0" Id="18" X="-300" Y="-100" Z="-50" RZ="0"/>
+    <Point Name="Point" bCurrentPoint="0" Id="19" X="0" Y="300" Z="-50" RZ="0"/>
+   </SPPMove>
+   <SPPMove CoorIndex="0" Name="SPPMove" Acc="120" DataType="SPPMove" Lg2="0" Lg1="0" Id="20" Hgt="0" Move="500" trjV0="0" Dec="120" Spd="46" ToolIndex="0">
+    <Point Name="Point" bCurrentPoint="0" Id="21" X="0" Y="300" Z="-50" RZ="0"/>
+    <Point Name="Point" bCurrentPoint="0" Id="22" X="300" Y="0" Z="-50" RZ="0"/>
+   </SPPMove>
+   <LineTo CoorIndex="0" Name="LineTo" DataType="LineTo" Id="23" Spd="30" Tm="500" ToolIndex="0">
+    <Point Name="Point" bCurrentPoint="0" Id="24" X="0" Y="0" Z="-50" RZ="0"/>
+   </LineTo>
+  </Main>
+  <SubPrograms/>
+  <SubFunctions/>
+ </Program>
+</Root>

@@ -1,0 +1,22 @@
+C:\Users\Yuki\Desktop\Delta control system\Delta control system\Delta control system\bin\Debug\Delta control system.exe.config
+C:\Users\Yuki\Desktop\Delta control system\Delta control system\Delta control system\bin\Debug\Delta control system.exe
+C:\Users\Yuki\Desktop\Delta control system\Delta control system\Delta control system\bin\Debug\Delta control system.pdb
+C:\Users\Yuki\Desktop\Delta control system\Delta control system\Delta control system\obj\Debug\Delta control system.csproj.AssemblyReference.cache
+C:\Users\Yuki\Desktop\Delta control system\Delta control system\Delta control system\obj\Debug\Delta control system.csproj.SuggestedBindingRedirects.cache
+C:\Users\Yuki\Desktop\Delta control system\Delta control system\Delta control system\obj\Debug\Delta_control_system.Login.resources
+C:\Users\Yuki\Desktop\Delta control system\Delta control system\Delta control system\obj\Debug\Delta_control_system.Properties.Resources.resources
+C:\Users\Yuki\Desktop\Delta control system\Delta control system\Delta control system\obj\Debug\Delta control system.csproj.GenerateResource.cache
+C:\Users\Yuki\Desktop\Delta control system\Delta control system\Delta control system\obj\Debug\Delta control system.csproj.CoreCompileInputs.cache
+C:\Users\Yuki\Desktop\Delta control system\Delta control system\Delta control system\obj\Debug\Delta control system.exe
+C:\Users\Yuki\Desktop\Delta control system\Delta control system\Delta control system\obj\Debug\Delta control system.pdb
+C:\Users\Yuki\Desktop\Delta control system\Delta control system\Delta control system\bin\Debug\Guna.UI2.dll
+C:\Users\Yuki\Desktop\Delta control system\Delta control system\Delta control system\obj\Debug\Delta_control_system.Account.resources
+C:\Users\Yuki\Desktop\Delta control system\Delta control system\Delta control system\obj\Debug\Delta_control_system.Generalsetting.resources
+C:\Users\Yuki\Desktop\Delta control system\Delta control system\Delta control system\obj\Debug\Delta_control_system.InternetSetting.resources
+C:\Users\Yuki\Desktop\Delta control system\Delta control system\Delta control system\obj\Debug\Delta_control_system.PinSetting.resources
+C:\Users\Yuki\Desktop\Delta control system\Delta control system\Delta control system\obj\Debug\Delta_control_system.Setting.resources
+C:\Users\Yuki\Desktop\Delta control system\Delta control system\Delta control system\obj\Debug\Delta_control_system.HOME.resources
+C:\Users\Yuki\Desktop\Delta control system\Delta control system\Delta control system\obj\Debug\Delta_control_system.Loading.resources
+C:\Users\Yuki\Desktop\Delta control system\Delta control system\Delta control system\obj\Debug\Delta control system.csproj.CopyComplete
+C:\Users\Yuki\Desktop\Delta control system\Delta control system\Delta control system\obj\Debug\Delta_control_system.Control.resources
+C:\Users\Yuki\Desktop\Delta control system\Delta control system\Delta control system\obj\Debug\Delta_control_system.Debug.resources
